@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Udaya Sri — lecturer, developer and builder</title>
+<desc id="desc">A dark blue animated technology banner with orbiting signal rings and a glowing accent.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#071426"/><stop offset=".55" stop-color="#112b4e"/><stop offset="1" stop-color="#241a48"/>
+  </linearGradient>
+  <linearGradient id="shine" x1="0" x2="1">
+    <stop offset="0" stop-color="#38bdf8"/><stop offset=".52" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/>
+  </linearGradient>
+  <radialGradient id="glow">
+    <stop offset="0" stop-color="#38bdf8" stop-opacity=".32"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#c3d9ff" stroke-opacity=".07" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect width="1200" height="320" rx="28" fill="url(#background)"/>
+<rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+<ellipse cx="1000" cy="132" rx="260" ry="190" fill="url(#glow)"/>
+<g fill="none" stroke="url(#shine)" stroke-width="2" opacity=".56">
+  <ellipse cx="1005" cy="158" rx="205" ry="73" transform="rotate(-28 1005 158)">
+    <animateTransform attributeName="transform" type="rotate" from="-28 1005 158" to="332 1005 158" dur="24s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="1005" cy="158" rx="148" ry="105" transform="rotate(32 1005 158)">
+    <animateTransform attributeName="transform" type="rotate" from="32 1005 158" to="-328 1005 158" dur="32s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="1005" cy="158" r="52" opacity=".65"/>
+</g>
+<circle cx="1005" cy="158" r="14" fill="url(#shine)">
+  <animate attributeName="r" values="12;17;12" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1005" cy="158" r="37" fill="none" stroke="#7dd3fc" stroke-opacity=".65">
+  <animate attributeName="r" values="32;56;32" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values=".7;0;.7" dur="3s" repeatCount="indefinite"/>
+</circle>
+<path d="M72 244H510" stroke="url(#shine)" stroke-width="3" stroke-linecap="round">
+  <animate attributeName="stroke-dasharray" values="0 438;438 0;0 438" dur="8s" repeatCount="indefinite"/>
+</path>
+<text x="74" y="119" fill="#e2e8f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="5">LECTURER  ·  SOFTWARE DEVELOPER  ·  BUILDER</text>
+<text x="70" y="198" fill="#ffffff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="1">UDAYA SRI</text>
+<text x="74" y="282" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Networking  /  Cybersecurity  /  Linux  /  IoT</text>
+<text x="1068" y="285" fill="#94a3b8" font-family="monospace" font-size="13" letter-spacing="2">USKING STUDIOS</text>
+</svg>
